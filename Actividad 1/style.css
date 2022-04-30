@@ -4,15 +4,21 @@ header>.navbar {
     padding-right: 10%;
 }
 
+body>.card{
+    width: auto;
+    height: auto;
+}
+
 body>.card>.card-img{
     filter: brightness(50%);
 }
 body>.card>.card-img-overlay{
+    box-sizing: content-box;
     width: 45%;
     height: 50%;
-    padding-top: 10%;
+    padding-top: 12%;
     margin-left: 50%;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
 }
 
 body>.oradores {
