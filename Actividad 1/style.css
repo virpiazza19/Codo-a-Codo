@@ -7,6 +7,7 @@ header>.navbar {
 body>.card{
     width: auto;
     height: auto;
+    box-sizing: content-box;
 }
 
 body>.card>.card-img{
@@ -14,11 +15,11 @@ body>.card>.card-img{
 }
 body>.card>.card-img-overlay{
     box-sizing: content-box;
-    width: 45%;
     height: 50%;
     padding-top: 12%;
-    margin-left: 50%;
+    padding-left: 40%;
     padding-bottom: 12%;
+    padding-right: 10%;
 }
 
 body>.oradores {
